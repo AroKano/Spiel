@@ -1,4 +1,4 @@
-package tictactoe;
+package zahlenraten;
 
 /**
  * Used if methods are called in wrong status

@@ -1,4 +1,4 @@
-package tictactoe;
+package zahlenraten;
 
 public class GameException extends Exception {
     public GameException() { super(); }

@@ -1,6 +1,6 @@
 package network;
 
-import tictactoe.StatusException;
+import zahlenraten.StatusException;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,7 +21,4 @@ public interface ProtocolEngine {
      */
     void close() throws IOException;
 
-    void subscribeGameSessionEstablishedListener(GameSessionEstablishedListener ocListener);
-
-    void unsubscribeGameSessionEstablishedListener(GameSessionEstablishedListener ocListener);
 }
